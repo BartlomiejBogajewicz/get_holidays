@@ -3,7 +3,7 @@ The pipeline contain four tasks
 1. check_source - makes sure that we can connect to api and get valid response
 2. download_holidays - makes request to calendarific api and tranform data to create json file with five nearest holidays
 3. check_file - look for json file that was created based on response in get_holidays function 
-4. send_holidays - read json file and based on prepare message that will be send by email
+4. send_holidays - read json file and based on it prepare message that will be send by email
 
 Below you can see the pipeline in airflow 
 
