@@ -1,4 +1,4 @@
-In this project I have created a data pipeline created by airflow which send an email with list of five nearest holidays from four distinct countries.
+In this project I have created a data pipeline in airflow which send an email with list of five nearest holidays from four distinct countries.
 The pipeline contain four tasks
 1. check_source - makes sure that we can connect to api and get valid response
 2. download_holidays - makes request to calendarific api and tranform data to create json file with five nearest holidays
